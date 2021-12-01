@@ -1,0 +1,53 @@
+body{
+    background: url("/img/abstract.png") no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: right;
+}
+.a{
+    float: left;
+    margin: 225px;
+    padding: 5px;
+    border-left: 2px solid red;
+}
+.b{
+    float: left;
+}
+.menu{
+    text-align: center;
+}
+.menu .active{
+    color: red;
+}
+.menu>span{
+    margin: 15px;
+}
+#logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 60px;
+
+}
+#logo strong{
+    color: red;
+}
+.btn1{
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: red;
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn2{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #ccc;
+    font-size: 18px;
+    text-decoration: none;
+    color:#000000;
+}
+
+    
